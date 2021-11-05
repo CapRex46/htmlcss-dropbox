@@ -87,3 +87,80 @@ div img{
     left: 550px;
 }
 
+.row{
+    margin: 0 auto;
+}
+
+.row h2{
+    width: 1200px;
+    margin-top: 280px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.radiobuttons{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.fl{
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.col-center{
+    width: 20%;
+    border: lightgray 1px solid;
+    font-size: 18px;
+    height:  36px;
+    margin-left: 30px;
+}
+
+.col-right, .col-left{
+    width: 20%;
+    border: lightgray 1px solid;
+    font-size: 18px;
+    height:  36px;
+    margin-left: 30px;
+}
+
+.col-left{
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.col-content{
+    padding: 10px 20px;
+    height: 200px;
+}
+
+.partners{
+    width: 500px;
+    margin-top: 1000px;
+    margin-left: -350px;
+    float: left;
+}
+
+.infopartners img{
+    float: left;
+}
+
+.infopartners{
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    margin-top: 200px;
+    margin-left: 800px;
+    margin-bottom: 40px;
+}
+
+.button2{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 0px;
+}
