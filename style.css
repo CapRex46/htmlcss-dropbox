@@ -5,20 +5,48 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
-
 header{
     width: 1400px;
     background: white;
     height: 80px;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.containerbig{
+    width: 1400px;
+    background:#add1ea;
+    height: 80vh;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
 nav{
     padding: 20px;
     padding-left: 50px;
+    padding-top: 25px;
+
+}
+
+nav img {
+    width: 100px;
+    vertical-align: text-bottom;
 }
 
 nav ul li{
@@ -26,7 +54,7 @@ nav ul li{
     margin-right: 20px;
 }
 
-.fllx{
+nav li{
     float: left;
 }
 
@@ -46,12 +74,6 @@ nav ul li{
     cursor: pointer;
 }
 
-main{
-    width: 1400px;
-    background:#add1ea;
-    height: 80vh;
-}
-
 .container h1{
     padding-top: 80px;
     padding-left: 10px;
@@ -60,11 +82,11 @@ main{
 }
 
 .container p{
-    padding-top: 40px;
+    padding-top: 90px;
     padding-left: 10px;
     text-align: left;
     font-size: 18px;
-    width: 400px;
+    width: 500px;
 }
 
 .container p:last-of-type{
@@ -72,7 +94,7 @@ main{
 }
 
 .arrow{
-    padding-top: 60px;
+    padding-top: 50px;
     padding-left: 10px;
     text-align: left;
     font-size: 18px;
@@ -83,84 +105,82 @@ div img{
     display: inline;
     position: absolute;
     z-index: 1;
-    top: 380px;
+    top: 430px;
     left: 550px;
 }
 
-.row{
-    margin: 0 auto;
+.dropboxplans{
+    padding-top: 300px;
 }
 
-.row h2{
-    width: 1200px;
-    margin-top: 280px;
-    font-size: 40px;
+.dropboxplans h3{
+    float: left;
+    font-size: 55px;
+}
+
+.fatturazione{
+    margin-top: 100px;
+    width: 900px;
+}
+
+.fatturazione label{
+    display: inline-block;
+    padding-right: 20px;
+    margin-left: 5px;
+}
+
+.b1 {
+    height: 600px;
+    margin-top: 30px;
+    width: calc((100%/3) - 30px);
+}
+
+.type {
+    height: 50px;
+    border: 1px solid #ccc;
     text-align: center;
+    line-height: 50px;
 }
 
-.radiobuttons{
-    margin-top: 50px;
-    margin-left: 200px;
+.type::before {
+    font-weight: 400;
 }
 
-.fl{
-    float: left;
-    margin-top: 50px;
-    text-align: center;
+.b1center {
+    margin: 30px 45px;
 }
 
-.col-center{
-    width: 20%;
-    border: lightgray 1px solid;
-    font-size: 18px;
-    height:  36px;
-    margin-left: 30px;
+.info {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    font-size: 14px;
 }
 
-.col-right, .col-left{
-    width: 20%;
-    border: lightgray 1px solid;
-    font-size: 18px;
-    height:  36px;
-    margin-left: 30px;
+.b1 .info {
+    height: 800px;
 }
 
-.col-left{
-    margin-left: 200px;
-    font-size: 18px;
+.b1 .typeffer {
+    margin-bottom: 50px;
 }
 
-.col-content{
-    padding: 10px 20px;
-    height: 200px;
+.b1 .prezzo {
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.partners{
-    width: 500px;
-    margin-top: 1000px;
-    margin-left: -350px;
-    float: left;
+.b1 .prezzo::after{
+    content: "\20AC";
+    padding-left: 5px;
 }
 
-.infopartners img{
-    float: left;
+.b1 .periodo {
+    margin-top: 10px;
+    color: #1d5a83;
 }
 
-.infopartners{
-    font-size: 20px;
-    text-align: left;
-    float: left;
-    margin-top: 200px;
-    margin-left: 800px;
-    margin-bottom: 40px;
-}
-
-.button2{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-align: center;
-    margin-right: 0px;
+.b1 .list {
+    margin: 30px 0;
 }
