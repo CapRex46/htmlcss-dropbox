@@ -5,8 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.page{
+    width: 1900px;
+    margin: 0 auto;
+}
 header{
-    width: 1400px;
+    width: 100%;
     background: white;
     height: 80px;
 }
@@ -17,7 +21,7 @@ header{
 }
 
 .containerbig{
-    width: 1400px;
+    width: 100%;
     background:#add1ea;
     height: 80vh;
 }
@@ -55,6 +59,7 @@ nav{
 nav img {
     width: 100px;
     vertical-align: text-bottom;
+    margin-left: 20px;
 }
 
 nav ul li{
@@ -138,7 +143,7 @@ nav li{
     position: absolute;
     z-index: 1;
     top: 430px;
-    left: 550px;
+    left: 800px;
 }
 
 
